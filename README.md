@@ -24,4 +24,4 @@ need install git, docker, maven at first
 - modify kubernetes yaml to set the image registry: config-server.yaml, service-registry.yaml, turbine-server.yaml, monitor-dashboard.yaml, auth-service.yaml, account-service.yaml, cloud-gateway.yaml
 - run ./deploy-kubenetes.sh script to deploy all workloads
 - to run the script to get node port of each service: kubectl get svc 
-- try to accesss each service with http://<node ip>:<node port>
+- try to accesss each service with ```http://<node ip>:<node port>```
