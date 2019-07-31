@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: cloud-gateway
-        image: 192.168.99.100:5000/cloud-gateway
+        image: us.icr.io/cloudnative-lab/cloud-gateway
         ports:
         - containerPort: 8080
         env:

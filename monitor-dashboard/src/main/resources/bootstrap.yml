@@ -14,3 +14,7 @@ spring:
     config:
       uri: ${CONFIG_SERVER_URL}
       fail-fast: true
+
+turbine:
+  aggregator:
+    clusterConfig: hystrixdemo

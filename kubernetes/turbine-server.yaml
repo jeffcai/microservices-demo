@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: turbine-server
-        image: 192.168.99.100:5000/turbine-server
+        image: us.icr.io/cloudnative-lab/turbine-server
         ports:
         - containerPort: 8989
         env:

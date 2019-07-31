@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: 192.168.99.100:5000/rabbitmq:management
+        image: rabbitmq:management
         ports:
         - name: service
           containerPort: 5672

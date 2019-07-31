@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: service-registry
-        image: 192.168.99.100:5000/service-registry
+        image: us.icr.io/cloudnative-lab/service-registry
         ports:
         - containerPort: 8761
         env:

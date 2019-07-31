@@ -2,10 +2,10 @@
 
 set -e
 
-docker push 192.168.99.100:5000/config-server
-docker push 192.168.99.100:5000/service-registry
-docker push 192.168.99.100:5000/turbine-server
-docker push 192.168.99.100:5000/monitor-dashboard
-docker push 192.168.99.100:5000/auth-service
-docker push 192.168.99.100:5000/account-service
-docker push 192.168.99.100:5000/cloud-gateway
+docker push us.icr.io/cloudnative-lab/config-server
+docker push us.icr.io/cloudnative-lab/service-registry
+docker push us.icr.io/cloudnative-lab/turbine-server
+docker push us.icr.io/cloudnative-lab/monitor-dashboard
+docker push us.icr.io/cloudnative-lab/auth-service
+docker push us.icr.io/cloudnative-lab/account-service
+docker push us.icr.io/cloudnative-lab/cloud-gateway

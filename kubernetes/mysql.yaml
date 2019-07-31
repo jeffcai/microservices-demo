@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: 192.168.99.100:5000/mysql:5.7
+        image: mysql:5.7
         ports:
         - containerPort: 3306
         env:

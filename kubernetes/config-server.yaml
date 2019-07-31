@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: config-server
-        image: 192.168.99.100:5000/config-server
+        image: us.icr.io/cloudnative-lab/config-server
         ports:
         - containerPort: 8888
         env:

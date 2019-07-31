@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: zipkin
-        image: 192.168.99.100:5000/zipkin
+        image: openzipkin/zipkin
         ports:
         - containerPort: 9411
         env:

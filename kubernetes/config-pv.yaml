@@ -12,7 +12,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/Users/yenchu/git/microservices-demo/config-server/src/main/resources/shared"
+    path: "/shared"
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
