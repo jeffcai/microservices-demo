@@ -18,9 +18,9 @@ need install git, docker, maven at first
 - access the cluster page and click the access tab：install cli and configure client
 - access Registry to create namespace and login registry
 - git clone: https://github.com/jeffcai/microservices-demo
-- run the script to pacakge jars at the root of the git repo：mvn -Dmaven.test.skip=true package
-- modify build-images.sh to set the image regsitry and run ./build-images.sh to build images
-- modify push-images.sh to set the image regsitry and run ./push-images.sh to push images
+- run the script to pacakge jars at the root of the git repo：```mvn -Dmaven.test.skip=true package```
+- modify build-images.sh to set the image regsitry and run ```./build-images.sh``` to build images
+- modify push-images.sh to set the image regsitry and run ```./push-images.sh``` to push images
 - modify kubernetes yaml to set the image registry: config-server.yaml, service-registry.yaml, turbine-server.yaml, monitor-dashboard.yaml, auth-service.yaml, account-service.yaml, cloud-gateway.yaml
 - run ./deploy-kubenetes.sh script to deploy all workloads
 - to run the script to get node port of each service: kubectl get svc 
