@@ -1,4 +1,4 @@
-CONFIG_SERVER_URL: http://127.0.0.1:8888
+CONFIG_SERVER_URL: http://config-server:8888
 
 server:
   port: 8989
